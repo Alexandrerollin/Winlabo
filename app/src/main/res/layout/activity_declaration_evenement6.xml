@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DeclarationEvenement6">
+    <include layout="@layout/menu"/>
+    <include layout="@layout/footer"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        android:progress="20"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:id="@+id/DeclarationEvenementIndesirable1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/rouge"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="130dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="10dp"
+            android:text="1 Déclaration evènement indésirable"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/DeclarationSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/rouge"
+        android:layout_marginHorizontal="40dp"
+        android:backgroundTint="@color/grey"
+        android:layout_below="@+id/DeclarationEvenementIndesirable1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="4dp"
+            android:padding="10dp"
+            android:text="Documents joints :"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnNouvelEvenement"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/vert"
+            android:text="+"
+            android:textColor="@color/white"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lesite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/grey"
+        android:layout_below="@+id/DeclarationSite"
+        android:layout_marginHorizontal="40dp">
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            android:text="Date | Auteur"
+            android:textSize="24dp"
+            android:layout_marginStart="40dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:paddingLeft="10dp"/>"
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dateauteur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/grey"
+        android:layout_marginHorizontal="40dp"
+        android:layout_below="@+id/lesite">
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            android:text="Aucun élément à afficher"
+            android:textSize="18dp"
+            android:layout_marginStart="40dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:layout_marginBottom="30dp"
+            android:paddingBottom="60dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"/>"
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/dateauteur"
+        android:layout_marginHorizontal="40dp">
+
+        <Button
+            android:id="@+id/Precedent6"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/grey"
+            android:text="Précédent"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_alignParentLeft="true"/>
+
+        <Button
+            android:id="@+id/Suivant6"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/bleu4"
+            android:text="Suivant"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"/>
+    </LinearLayout>
+
+</RelativeLayout>
