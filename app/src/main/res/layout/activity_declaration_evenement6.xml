@@ -10,41 +10,39 @@
 
     <ProgressBar
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="20dp"
         style="?android:attr/progressBarStyleHorizontal"
         android:max="100"
         android:progress="20"
-        android:layout_marginTop="80dp"
-        android:layout_gravity="center_horizontal" />
+        android:layout_marginTop="80dp" />
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/DeclarationEvenementIndesirable1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:background="@color/rouge"
         android:layout_marginHorizontal="40dp"
-        android:layout_marginTop="130dp">
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="4dp"
             android:padding="10dp"
             android:text="1 Déclaration evènement indésirable"
             android:textColor="@color/black"
+            android:textSize="18sp"
             android:textStyle="bold"
-            android:textSize="18sp"/>
-    </LinearLayout>
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
 
     <LinearLayout
         android:id="@+id/DeclarationSite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="@color/rouge"
+        android:background="@color/grey2"
         android:layout_marginHorizontal="40dp"
-        android:backgroundTint="@color/grey"
         android:layout_below="@+id/DeclarationEvenementIndesirable1">
 
         <TextView
@@ -77,7 +75,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="@color/grey"
+        android:background="@color/grey2"
         android:layout_below="@+id/DeclarationSite"
         android:layout_marginHorizontal="40dp">
 
@@ -97,7 +95,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="@color/grey"
+        android:background="@color/grey2"
         android:layout_marginHorizontal="40dp"
         android:layout_below="@+id/lesite">
 
