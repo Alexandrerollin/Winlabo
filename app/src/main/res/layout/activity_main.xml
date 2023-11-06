@@ -12,7 +12,6 @@
         android:id="@+id/Seconnecter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="100dp"
         android:layout_marginTop="130dp">
 
         <TextView
@@ -23,24 +22,23 @@
             android:textSize="24dp"
             android:textStyle="bold"
             android:textColor="#000000"/>
-        </RelativeLayout>
+    </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_centerVertical="true"
-            android:layout_marginHorizontal="60dp"
-            android:layout_marginBottom="140dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginBottom="140dp"
         android:layout_marginTop="40dp"
-            android:background="@color/bleu1"
-            android:paddingLeft="20dp"
+        android:background="@color/bleu1"
+        android:paddingLeft="20dp"
         android:layout_below="@+id/Seconnecter">
 
         <TextView
             android:id="@+id/DMDUtilisateur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
             android:padding="10dp"
             android:layout_marginTop="10dp"
             android:text="Nom d'utilisateur :"
@@ -62,7 +60,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/Utilisateur"
-            android:layout_marginStart="10dp"
             android:padding="10dp"
             android:text="Mot de passe :"
             android:textColor="#FFFFFF" />
@@ -84,7 +81,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/MDP"
-            android:layout_marginStart="10dp"
             android:padding="10dp"
             android:text="Mot de passe oublié :"
             android:textColor="#FFFFFF"
@@ -95,7 +91,6 @@
             android:id="@+id/DMDURL"
             android:layout_width="178dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
             android:padding="10dp"
             android:text="URL du serveur :"
             android:textColor="#FFFFFF"
@@ -118,8 +113,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/URLServeur"
             android:layout_centerInParent="true"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginTop="25dp"
             android:backgroundTint="#FFFFFF"
             android:text="Se connecter"
             android:textColor="@color/black" />
