@@ -10,18 +10,17 @@
 
     <ProgressBar
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="20dp"
         style="?android:attr/progressBarStyleHorizontal"
         android:max="100"
         android:progress="20"
-        android:layout_marginTop="80dp"
-        android:layout_gravity="center_horizontal" />
+        android:layout_marginTop="80dp" />
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/DeclarationEvenementIndesirable1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
         android:background="@color/rouge"
         android:layout_marginHorizontal="40dp"
         android:layout_marginTop="130dp">
@@ -29,19 +28,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="4dp"
+            android:layout_centerHorizontal="true"
             android:padding="10dp"
             android:text="2 Traitement evènement indésirable"
             android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textSize="18sp"/>
-    </LinearLayout>
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/DeclarationSite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
         android:background="@color/rouge"
         android:layout_marginHorizontal="40dp"
         android:paddingVertical="10dp"
@@ -58,15 +57,15 @@
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold" />
-    </LinearLayout>
+    </RelativeLayout>
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/lesite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
         android:paddingBottom="40dp"
-        android:background="@color/grey"
+        android:background="@color/grey2"
         android:layout_below="@+id/DeclarationSite"
         android:layout_marginHorizontal="40dp">
 
@@ -75,10 +74,11 @@
             android:layout_height="140dp"
             android:background="@color/white"
             android:layout_marginHorizontal="40dp"
+            android:layout_centerHorizontal="true"
             android:hint="Ecrire ici..."
             android:paddingBottom="100dp"
             android:paddingStart="10dp"/>
-    </LinearLayout>
+    </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"

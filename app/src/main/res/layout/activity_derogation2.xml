@@ -6,22 +6,22 @@
     android:background="@color/white"
     tools:context=".Derogation2">
     <include layout="@layout/menu"/>
-    <include layout="@layout/footer"/>
+    <include layout="@layout/footer" />
 
     <ProgressBar
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="20dp"
         style="?android:attr/progressBarStyleHorizontal"
         android:max="100"
         android:progress="20"
         android:layout_marginTop="80dp"
         android:layout_gravity="center_horizontal" />
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/DeclarationEvenementIndesirable1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
         android:background="@color/rouge"
         android:layout_marginHorizontal="40dp"
         android:layout_marginTop="130dp">
@@ -29,29 +29,29 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="4dp"
+            android:layout_centerHorizontal="true"
             android:padding="10dp"
             android:text="2 Traitement evènement indésirable"
             android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textSize="18sp"/>
-    </LinearLayout>
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/derogation1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:background="@color/rouge"
+        android:layout_centerHorizontal="true"
+        android:background="@color/grey2"
         android:layout_marginHorizontal="40dp"
-        android:backgroundTint="@color/grey"
         android:layout_below="@+id/DeclarationEvenementIndesirable1">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="4dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
             android:padding="10dp"
             android:text="Documents joints :"
             android:textColor="@color/black"
@@ -60,54 +60,60 @@
 
         <Button
             android:layout_width="60dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="50dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:backgroundTint="@color/vert"
             android:text="+"
             android:textColor="@color/white"
             android:textSize="24dp" />
-    </LinearLayout>
+    </RelativeLayout>
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/derogation2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingBottom="20dp"
-        android:background="@color/grey"
         android:layout_below="@+id/derogation1"
-        android:layout_marginHorizontal="40dp">
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="40dp"
+        android:background="@color/grey2"
+        android:paddingBottom="0dp">
 
         <TextView
-            android:layout_width="260dp"
-            android:layout_height="match_parent"
-            android:text="Aucun"
-            android:textSize="16dp"
-            android:layout_marginStart="40dp"
-            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
             android:background="@color/white"
-            android:paddingBottom="30dp"
+            android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:paddingLeft="10dp"/>
-    </LinearLayout>
+            android:paddingRight="10dp"
+            android:paddingBottom="60dp"
+            android:text="Aucun élément à afficher"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
 
-    <LinearLayout
+
+    </RelativeLayout>
+
+    <RelativeLayout
         android:id="@+id/derogation3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:background="@color/rouge"
+        android:layout_centerHorizontal="true"
         android:layout_marginHorizontal="40dp"
-        android:backgroundTint="@color/grey"
+        android:background="@color/grey2"
         android:layout_below="@+id/derogation2">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
             android:layout_marginStart="30dp"
-            android:layout_marginTop="4dp"
             android:padding="10dp"
             android:text="Historique dérogations :"
             android:textColor="@color/black"
@@ -116,41 +122,46 @@
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingActionButton"
-            android:layout_width="10dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="0.5"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
             android:clickable="true"
             app:srcCompat="@android:drawable/arrow_down_float"
-            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
             android:layout_marginBottom="20dp"/>
-    </LinearLayout>
+    </RelativeLayout>
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/derogation4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:layout_below="@+id/derogation3"
         android:layout_marginHorizontal="40dp"
-        android:background="@color/grey"
+        android:background="@color/grey2"
         android:orientation="horizontal"
         android:paddingBottom="20dp">
 
         <TextView
-            android:layout_width="260dp"
-            android:layout_height="match_parent"
-            android:layout_marginStart="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
             android:background="@color/white"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:paddingBottom="30dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="60dp"
+            android:text="Aucun élément à afficher"
             android:textColor="@color/black"
-            android:textSize="16dp" />
-    </LinearLayout>
+            android:textSize="18dp" />
+    </RelativeLayout>
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
         android:layout_below="@+id/derogation4"
@@ -158,12 +169,12 @@
 
         <Button
             android:id="@+id/Precedent12"
-            android:layout_width="110dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:backgroundTint="@color/grey"
+            android:backgroundTint="@color/grey2"
             android:text="Précédent"
             android:textColor="@color/white"
             android:textSize="12dp"
@@ -174,7 +185,7 @@
             android:id="@+id/Suivant13"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="70dp"
+            android:layout_marginRight="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:backgroundTint="@color/bleu4"
@@ -183,8 +194,6 @@
             android:textSize="12dp"
             android:textStyle="bold"
             android:layout_alignParentRight="true"/>
-
-
-    </LinearLayout>
+    </RelativeLayout>
 
 </RelativeLayout>

@@ -4,24 +4,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".EnregistrementTraitement2">
+    tools:context=".Enregistrement1">
     <include layout="@layout/menu"/>
     <include layout="@layout/footer"/>
 
     <ProgressBar
         android:layout_width="match_parent"
-        android:layout_height="25dp"
+        android:layout_height="20dp"
         style="?android:attr/progressBarStyleHorizontal"
         android:max="100"
         android:progress="20"
         android:layout_marginTop="80dp"
         android:layout_gravity="center_horizontal" />
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/DeclarationEvenementIndesirable1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
         android:background="@color/rouge"
         android:layout_marginHorizontal="40dp"
         android:layout_marginTop="130dp">
@@ -29,58 +29,75 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:padding="10dp"
             android:text="3 Enregistrement"
             android:textColor="@color/black"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:layout_marginLeft="80dp"/>
-    </LinearLayout>
+            android:textStyle="bold"/>
+    </RelativeLayout>
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/DeclarationSite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:background="@color/rouge"
+        android:layout_centerHorizontal="true"
+        android:background="@color/grey2"
         android:layout_marginHorizontal="40dp"
-        android:paddingVertical="30dp"
-        android:backgroundTint="@color/grey"
+        android:paddingVertical="10dp"
         android:layout_below="@+id/DeclarationEvenementIndesirable1">
 
-        <TextView
-            android:layout_width="250dp"
-            android:layout_height="match_parent"
-            android:textSize="18dp"
-            android:layout_marginStart="40dp"
-            android:textColor="@color/black"
-            android:background="@color/white"
-            android:paddingBottom="60dp"/>
-    </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/vert"
+            android:text="VALIDER"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+    </RelativeLayout>
 
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
         android:layout_below="@+id/DeclarationSite"
         android:layout_marginHorizontal="40dp">
 
         <Button
-            android:id="@+id/Precedent31"
-            android:layout_width="135dp"
+            android:id="@+id/Precedent32"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="95dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:backgroundTint="@color/bleu4"
-            android:text="Retour Accueil"
+            android:backgroundTint="@color/grey2"
+            android:text="Précédent"
             android:textColor="@color/white"
             android:textSize="12dp"
             android:textStyle="bold"
             android:layout_alignParentLeft="true"/>
-    </LinearLayout>
+
+        <Button
+            android:id="@+id/Suivant32"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/bleu4"
+            android:text="Suivant"
+            android:textColor="@color/white"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"/>
+
+
+    </RelativeLayout>
 
 </RelativeLayout>

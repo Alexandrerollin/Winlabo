@@ -36,7 +36,7 @@
             android:layout_centerHorizontal="true"/>
     </RelativeLayout>
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/DeclarationSite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -48,6 +48,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
             android:layout_marginStart="30dp"
             android:layout_marginTop="4dp"
             android:padding="10dp"
@@ -60,6 +62,8 @@
             android:id="@+id/btnNouvelEvenement"
             android:layout_width="63dp"
             android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:backgroundTint="@color/vert"
@@ -67,89 +71,89 @@
             android:textColor="@color/white"
             android:textSize="32dp"
             android:textStyle="bold"
-            android:layout_marginLeft="20dp" />
-    </LinearLayout>
+            android:layout_marginRight="30dp" />
+    </RelativeLayout>
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/lesite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
         android:background="@color/grey2"
         android:layout_below="@+id/DeclarationSite"
         android:layout_marginHorizontal="40dp">
 
         <TextView
             android:layout_width="260dp"
-            android:layout_height="match_parent"
-            android:text="Date | Auteur"
-            android:textSize="24dp"
-            android:layout_marginStart="40dp"
-            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:background="@color/white"
-            android:paddingLeft="10dp"/>"
-    </LinearLayout>
+            android:paddingLeft="10dp"
+            android:text="Date | Auteur"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold" />"
+    </RelativeLayout>
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/dateauteur"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
         android:background="@color/grey2"
         android:layout_marginHorizontal="40dp"
         android:layout_below="@+id/lesite">
 
         <TextView
             android:layout_width="260dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:text="Aucun élément à afficher"
             android:textSize="18dp"
-            android:layout_marginStart="40dp"
+            android:layout_centerHorizontal="true"
             android:textColor="@color/black"
             android:background="@color/white"
             android:layout_marginBottom="30dp"
             android:paddingBottom="60dp"
             android:paddingTop="10dp"
             android:paddingLeft="10dp"/>"
-    </LinearLayout>
+    </RelativeLayout>
 
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
         android:layout_below="@+id/dateauteur"
-        android:layout_marginHorizontal="40dp">
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="40dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
 
         <Button
             android:id="@+id/Precedent6"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:backgroundTint="@color/grey"
+            android:backgroundTint="@color/grey2"
             android:text="Précédent"
             android:textColor="@color/white"
             android:textSize="12dp"
-            android:textStyle="bold"
-            android:layout_alignParentLeft="true"/>
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/Suivant6"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="70dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
             android:backgroundTint="@color/bleu4"
             android:text="Suivant"
             android:textColor="@color/white"
             android:textSize="12dp"
-            android:textStyle="bold"
-            android:layout_alignParentRight="true"/>
-    </LinearLayout>
+            android:textStyle="bold" />
+    </RelativeLayout>
 
 </RelativeLayout>
