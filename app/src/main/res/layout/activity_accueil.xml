@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:background="@color/rouge"
+        android:background="@drawable/backgroundred_border"
         android:layout_marginHorizontal="50dp"
         android:layout_marginTop="135dp">
 
