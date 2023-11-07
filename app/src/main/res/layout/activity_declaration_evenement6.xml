@@ -58,20 +58,29 @@
             android:textSize="20sp"
             android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/btnNouvelEvenement"
-            android:layout_width="63dp"
+        <ImageView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:src="@drawable/icons_plus"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:backgroundTint="@color/vert"
-            android:text="+"
-            android:textColor="@color/white"
-            android:textSize="32dp"
-            android:textStyle="bold"
-            android:layout_marginRight="30dp" />
+            android:layout_marginEnd="40dp"
+            android:layout_marginVertical="10dp"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/btnNouvelEvenement"-->
+<!--            android:layout_width="63dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:backgroundTint="@color/vert"-->
+<!--            android:text="+"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="32dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginRight="30dp" />-->
     </RelativeLayout>
 
     <RelativeLayout

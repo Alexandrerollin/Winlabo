@@ -57,14 +57,22 @@
             android:textStyle="bold"
             android:layout_centerVertical="true"/>
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floatingActionButton"
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:clickable="true"
-            app:srcCompat="@android:drawable/arrow_down_float"
+            android:src="@drawable/icons_below"
             android:layout_alignParentEnd="true"
-            android:layout_marginRight="40dp"/>
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="40dp"/>
+
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            android:id="@+id/floatingActionButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:clickable="true"-->
+<!--            app:srcCompat="@android:drawable/arrow_down_float"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginRight="40dp"/>-->
     </RelativeLayout>
 
     <RelativeLayout
@@ -101,6 +109,7 @@
             android:id="@+id/Precedent2"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"

@@ -77,16 +77,25 @@
             android:textStyle="bold"
             android:layout_marginLeft="30dp"/>
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/floatingActionButton"
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:src="@drawable/icons_below"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginRight="40dp"
-            android:layout_marginBottom="30dp"
-            android:clickable="true"
-            app:srcCompat="@android:drawable/arrow_down_float" />
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="20dp"/>
+
+<!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--            android:id="@+id/floatingActionButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_marginRight="40dp"-->
+<!--            android:layout_marginBottom="30dp"-->
+<!--            android:clickable="true"-->
+<!--            app:srcCompat="@android:drawable/arrow_down_float" />-->
     </RelativeLayout>
 
     <RelativeLayout
