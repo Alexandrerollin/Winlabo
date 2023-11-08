@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     tools:context=".MainActivity">
-    <include layout="@layout/menu"/>
+    <include layout="@layout/menuconnexion"/>
     <include layout="@layout/footer"/>
 
     <RelativeLayout
@@ -26,11 +26,10 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:layout_marginHorizontal="60dp"
-        android:layout_marginBottom="140dp"
         android:layout_marginTop="40dp"
         android:background="@drawable/backgroundbleu_border"
         android:paddingLeft="20dp"
@@ -115,6 +114,7 @@
             android:layout_below="@+id/URLServeur"
             android:layout_centerInParent="true"
             android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
             android:backgroundTint="#FFFFFF"
             android:text="Se connecter"
             android:textColor="@color/black" />
