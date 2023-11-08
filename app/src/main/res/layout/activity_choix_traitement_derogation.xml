@@ -10,11 +10,12 @@
 
     <ProgressBar
         android:layout_width="match_parent"
-        android:layout_height="23dp"
+        android:layout_height="10dp"
         style="?android:attr/progressBarStyleHorizontal"
         android:max="100"
         android:progress="20"
-        android:layout_marginTop="80dp"/>
+        android:layout_marginTop="80dp"
+        android:progressDrawable="@drawable/progress_barre_color"/>
 
     <RelativeLayout
         android:id="@+id/DeclarationEvenementIndesirable1"
