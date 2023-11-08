@@ -10,7 +10,7 @@
 
     <ProgressBar
         android:layout_width="match_parent"
-        android:layout_height="20dp"
+        android:layout_height="23dp"
         style="?android:attr/progressBarStyleHorizontal"
         android:max="100"
         android:progress="20"
