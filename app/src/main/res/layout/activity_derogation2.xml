@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:background="@color/rouge"
+        android:background="@drawable/borderlefttoprightred"
         android:layout_marginHorizontal="40dp"
         android:layout_marginTop="130dp">
 
@@ -42,7 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:background="@color/grey2"
+        android:background="@drawable/borderleftrightgrey"
         android:layout_marginHorizontal="40dp"
         android:layout_below="@+id/DeclarationEvenementIndesirable1">
 
@@ -88,7 +88,7 @@
         android:layout_below="@+id/derogation1"
         android:layout_centerHorizontal="true"
         android:layout_marginHorizontal="40dp"
-        android:background="@color/grey2"
+        android:background="@drawable/borderleftrightgrey"
         android:paddingBottom="0dp">
 
         <TextView
@@ -114,7 +114,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginHorizontal="40dp"
-        android:background="@color/grey2"
+        android:background="@drawable/borderleftrightgrey"
         android:layout_below="@+id/derogation2">
 
         <TextView
@@ -157,7 +157,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/derogation3"
         android:layout_marginHorizontal="40dp"
-        android:background="@color/grey2"
+        android:background="@drawable/borderleftbottomrightgrey"
         android:orientation="horizontal"
         android:paddingBottom="20dp">
 

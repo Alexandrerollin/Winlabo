@@ -20,7 +20,7 @@
         android:id="@+id/DeclarationEvenementIndesirable1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/rouge"
+        android:background="@drawable/borderlefttoprightred"
         android:layout_marginHorizontal="40dp"
         android:layout_marginTop="130dp"
         android:layout_centerHorizontal="true">
@@ -41,7 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:background="@color/grey2"
+        android:background="@drawable/borderleftrightgrey"
         android:layout_marginHorizontal="40dp"
         android:paddingVertical="10dp"
         android:layout_below="@+id/DeclarationEvenementIndesirable1">
@@ -82,7 +82,7 @@
         android:layout_centerHorizontal="true"
         android:paddingTop="20dp"
         android:paddingBottom="30dp"
-        android:background="@color/grey2"
+        android:background="@drawable/borderleftbottomrightgrey"
         android:layout_below="@+id/DeclarationSite"
         android:layout_marginHorizontal="40dp">
 
