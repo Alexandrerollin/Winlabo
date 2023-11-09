@@ -88,10 +88,6 @@
             android:layout_marginLeft="5dp"/>
     </RadioGroup>
 
-
-
-
-
 <!--    <RelativeLayout-->
 <!--        android:id="@+id/lesite"-->
 <!--        android:layout_width="match_parent"-->

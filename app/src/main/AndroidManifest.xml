@@ -13,16 +13,10 @@
         android:theme="@style/Theme.Winlabo"
         tools:targetApi="31">
         <activity
-            android:name=".EnregistrementDerogation2"
+            android:name=".Enregistrement2"
             android:exported="false" />
         <activity
-            android:name=".EnregistrementDerogation1"
-            android:exported="false" />
-        <activity
-            android:name=".EnregistrementTraitement2"
-            android:exported="false" />
-        <activity
-            android:name=".EnregistrementTraitement1"
+            android:name=".Enregistrement1"
             android:exported="false" />
         <activity
             android:name=".Derogation2"

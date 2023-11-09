@@ -32,7 +32,5 @@ public class DeclarationEvenement1 extends AppCompatActivity {
                 startActivity(nextIntent);
             }
         });
-
-
     }
 }
