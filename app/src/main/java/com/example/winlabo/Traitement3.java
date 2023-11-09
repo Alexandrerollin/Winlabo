@@ -16,6 +16,7 @@ public class Traitement3 extends AppCompatActivity {
 
         Intent previousIntent = new Intent(Traitement3.this, Traitement2.class);
         Intent nextIntent = new Intent(Traitement3.this, Enregistrement1.class);
+        nextIntent.putExtra("previousActivity", "Traitement3");
 
         Button previousButton = (Button) findViewById(R.id.Precedent10);
         previousButton.setOnClickListener(new View.OnClickListener() {

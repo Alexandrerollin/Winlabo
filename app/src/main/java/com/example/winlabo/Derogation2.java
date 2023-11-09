@@ -16,6 +16,7 @@ public class Derogation2 extends AppCompatActivity {
 
         Intent previousIntent = new Intent(Derogation2.this, Derogation1.class);
         Intent nextIntent = new Intent(Derogation2.this, Enregistrement1.class);
+        nextIntent.putExtra("previousActivity", "Derogation2");
 
         Button previousButton = (Button) findViewById(R.id.Precedent12);
         previousButton.setOnClickListener(new View.OnClickListener() {

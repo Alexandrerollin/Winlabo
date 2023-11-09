@@ -18,5 +18,27 @@ public class Enregistrement1 extends AppCompatActivity {
         Intent PreviousIntent2 = new Intent(Enregistrement1.this, Derogation2.class);
         Intent NextIntent = new Intent(Enregistrement1.this, Enregistrement2.class);
 
+        String previousActivity = getIntent().getStringExtra("previousActivity");
+
+        Button previousButton = (Button) findViewById(R.id.Precedent32);
+        previousButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if ("Traitement3".equals(previousActivity)) {
+                    startActivity(previousIntent);
+                } else if ("Derogation2".equals(previousActivity)) {
+                    startActivity(PreviousIntent2);
+                }
+            }
+        });
+
+        Button nextButton = (Button) findViewById(R.id.Suivant32);
+        nextButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(NextIntent);
+            }
+        });
     }
 }
+
