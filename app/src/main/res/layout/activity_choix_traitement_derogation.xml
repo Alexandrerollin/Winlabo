@@ -13,7 +13,7 @@
         android:layout_height="10dp"
         style="?android:attr/progressBarStyleHorizontal"
         android:max="100"
-        android:progress="20"
+        android:progress="25"
         android:layout_marginTop="80dp"
         android:progressDrawable="@drawable/progress_barre_color"/>
 
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:padding="10dp"
-            android:text="2 Traitement evènement indésirable"
+            android:text="2 Traitement évènement indésirable"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -41,55 +41,79 @@
         android:id="@+id/DeclarationSite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/DeclarationEvenementIndesirable1"
         android:layout_marginHorizontal="40dp"
-        android:paddingVertical="10dp"
+        android:layout_marginTop="0dp"
         android:background="@drawable/borderleftrightgrey"
-        android:layout_below="@+id/DeclarationEvenementIndesirable1">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:text="Ajouter un traitement :"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_centerVertical="true"/>
-
-        <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"/>
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:id="@+id/lesite"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:paddingVertical="10dp"
-        android:background="@drawable/borderleftbottomrightgrey"
-        android:layout_below="@+id/DeclarationSite"
-        android:layout_marginHorizontal="40dp">
+        android:paddingVertical="10dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
             android:layout_marginLeft="20dp"
-            android:text="Ajouter une dérogation :"
+            android:text="Ajouter :"
             android:textColor="@color/black"
-            android:textSize="20sp"
+            android:textSize="18dp"
             android:textStyle="bold" />
+    </RelativeLayout>
+    <RadioGroup
+        android:id="@+id/lesite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:paddingVertical="10dp"
+        android:background="@drawable/borderleftbottomrightgrey"
+        android:layout_below="@+id/DeclarationSite"
+        android:layout_marginHorizontal="40dp"
+        android:gravity="center">
 
         <RadioButton
+            android:id="@+id/radioTraitement"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"/>
-    </RelativeLayout>
+            android:text="Un traitement"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:layoutDirection="rtl"/>
+
+        <RadioButton
+            android:id="@+id/radioDerogation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Une dérogation"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"/>
+    </RadioGroup>
+
+
+
+
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/lesite"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:paddingVertical="10dp"-->
+<!--        android:background="@drawable/borderleftbottomrightgrey"-->
+<!--        android:layout_below="@+id/DeclarationSite"-->
+<!--        android:layout_marginHorizontal="40dp">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:text="Ajouter une dérogation :"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="18dp"-->
+<!--            android:textStyle="bold" />-->
+
+
+<!--    </RelativeLayout>-->
 
     <RelativeLayout
         android:id="@+id/ChoixTraitement"
