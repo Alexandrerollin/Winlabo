@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RadioGroup;
+import android.widget.Toast;
 
 public class DeclarationEvenement5 extends AppCompatActivity {
 
@@ -29,7 +31,17 @@ public class DeclarationEvenement5 extends AppCompatActivity {
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(nextIntent);
+                RadioGroup radioGroup = (RadioGroup) findViewById(R.id.radioCritique);
+                int selectedId = radioGroup.getCheckedRadioButtonId();
+
+                // Vérifiez si un bouton radio est sélectionné
+                if (selectedId == -1) {
+                    // Aucun bouton radio n'est sélectionné, affichez un message à l'utilisateur
+                    Toast.makeText(DeclarationEvenement5.this, "Veuillez sélectionner une option", Toast.LENGTH_SHORT).show();
+                } else {
+                    // Un bouton radio est sélectionné, vous pouvez démarrer la prochaine activité
+                    startActivity(nextIntent);
+                }
             }
         });
     }
