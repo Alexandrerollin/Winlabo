@@ -15,7 +15,7 @@ public class ChoixTraitementDerogation extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_choix_traitement_derogation);
 
-        Intent previousIntent = new Intent(ChoixTraitementDerogation.this, Derogation1.class);
+        Intent previousIntent = new Intent(ChoixTraitementDerogation.this, DeclarationEvenement6.class);
         Intent nextIntent = new Intent(ChoixTraitementDerogation.this, Traitement1.class);
         Intent nextIntent2 = new Intent(ChoixTraitementDerogation.this, Derogation1.class);
 

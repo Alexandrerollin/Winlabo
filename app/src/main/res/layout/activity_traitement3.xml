@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/borderlefttoprightred"
+        android:background="@drawable/borderlefttoprightbottomred"
         android:layout_marginHorizontal="40dp"
         android:layout_marginTop="130dp">
 
@@ -42,7 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/borderleftrightgrey"
+        android:background="@drawable/borderleftrightbeige"
         android:layout_marginHorizontal="40dp"
         android:layout_below="@+id/DeclarationEvenementIndesirable1">
 
@@ -76,7 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:paddingBottom="20dp"
-        android:background="@drawable/borderleftrightgrey"
+        android:background="@drawable/borderleftrightbeige"
         android:layout_below="@+id/DeclarationSite"
         android:layout_marginHorizontal="40dp">
 
@@ -87,7 +87,7 @@
             android:textSize="16dp"
             android:layout_centerHorizontal="true"
             android:textColor="@color/black"
-            android:background="@color/white"
+            android:background="@drawable/borderlefttoprightbottomwhite"
             android:paddingBottom="30dp"
             android:paddingTop="10dp"
             android:paddingLeft="10dp"/>
@@ -98,7 +98,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/borderleftrightgrey"
+        android:background="@drawable/borderleftrightbeige"
         android:layout_marginHorizontal="40dp"
         android:layout_below="@+id/lesite">
 
@@ -150,7 +150,7 @@
             android:layout_centerHorizontal="true"
             android:textSize="16dp"
             android:textColor="@color/black"
-            android:background="@color/white"
+            android:background="@drawable/borderlefttoprightbottomwhite"
             android:paddingBottom="40dp"/>
     </RelativeLayout>
 

@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/borderlefttoprightred"
+        android:background="@drawable/borderlefttoprightbottomred"
         android:layout_marginHorizontal="40dp"
         android:layout_marginTop="130dp">
 
@@ -43,7 +43,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/borderleftrightgrey"
+        android:background="@drawable/borderleftrightbeige"
         android:layout_marginHorizontal="40dp"
         android:layout_below="@+id/DeclarationEvenementIndesirable1">
 
@@ -89,7 +89,7 @@
         android:layout_below="@+id/derogation1"
         android:layout_centerHorizontal="true"
         android:layout_marginHorizontal="40dp"
-        android:background="@drawable/borderleftrightgrey"
+        android:background="@drawable/borderleftrightbeige"
         android:paddingBottom="0dp">
 
         <TextView
@@ -97,7 +97,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="10dp"
-            android:background="@color/white"
+            android:background="@drawable/borderlefttoprightbottomwhite"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:paddingRight="10dp"
@@ -115,7 +115,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginHorizontal="40dp"
-        android:background="@drawable/borderleftrightgrey"
+        android:background="@drawable/borderleftrightbeige"
         android:layout_below="@+id/derogation2">
 
         <TextView
@@ -167,7 +167,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="10dp"
-            android:background="@color/white"
+            android:background="@drawable/borderlefttoprightbottomwhite"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:paddingRight="10dp"

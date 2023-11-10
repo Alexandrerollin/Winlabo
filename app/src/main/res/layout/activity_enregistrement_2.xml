@@ -13,7 +13,7 @@
         android:layout_height="10dp"
         style="?android:attr/progressBarStyleHorizontal"
         android:max="100"
-        android:progress="20"
+        android:progress="100"
         android:layout_marginTop="80dp"
         android:progressDrawable="@drawable/progress_barre_color"/>
 
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/borderlefttoprightred"
+        android:background="@drawable/borderlefttoprightbottomred"
         android:layout_marginHorizontal="40dp"
         android:layout_marginTop="130dp">
 
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="40dp"
             android:layout_centerHorizontal="true"
-            android:background="@color/white"
+            android:background="@drawable/borderlefttoprightbottomwhite"
             android:paddingBottom="60dp"
             android:textColor="@color/black"
             android:textSize="18dp" />

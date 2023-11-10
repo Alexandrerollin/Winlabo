@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/borderlefttoprightred"
+        android:background="@drawable/borderlefttoprightbottomred"
         android:layout_marginHorizontal="40dp"
         android:layout_marginTop="130dp">
 
@@ -42,7 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/borderleftrightgrey"
+        android:background="@drawable/borderleftrightbeige"
         android:layout_marginHorizontal="40dp"
         android:paddingVertical="10dp"
         android:layout_below="@+id/DeclarationEvenementIndesirable1">
@@ -71,7 +71,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="140dp"
-            android:background="@color/white"
+            android:background="@drawable/borderlefttoprightbottomwhite"
             android:layout_marginHorizontal="40dp"
             android:hint="Ecrire ici..."
             android:paddingBottom="100dp"
