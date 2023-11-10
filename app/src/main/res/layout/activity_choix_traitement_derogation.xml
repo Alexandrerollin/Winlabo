@@ -127,7 +127,7 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginLeft="20dp"
-            android:backgroundTint="@color/grey2"
+            android:backgroundTint="@color/bleu4"
             android:text="Précédent"
             android:textColor="@color/white"
             android:textSize="12dp"
