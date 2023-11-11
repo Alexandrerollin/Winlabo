@@ -39,15 +39,16 @@
             android:id="@+id/DMDUtilisateur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:padding="10dp"
-            android:layout_marginTop="10dp"
             android:text="Nom d'utilisateur :"
             android:textColor="#FFFFFF" />
 
         <EditText
             android:id="@+id/Utilisateur"
-            android:layout_width="230dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:layout_below="@+id/DMDUtilisateur"
             android:layout_marginStart="10dp"
             android:background="@color/white"
@@ -62,12 +63,14 @@
             android:layout_below="@+id/Utilisateur"
             android:padding="10dp"
             android:text="Mot de passe :"
-            android:textColor="#FFFFFF" />
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="10dp"/>
 
 
         <EditText
             android:id="@+id/MDP"
-            android:layout_width="230dp"
+            android:layout_width="200dp"
+            android:layout_centerHorizontal="true"
             android:layout_height="wrap_content"
             android:layout_below="@+id/DMDMDP"
             android:layout_marginStart="10dp"
@@ -85,7 +88,8 @@
             android:text="Mot de passe oublié :"
             android:textColor="#FFFFFF"
             android:textSize="10dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"/>
 
         <TextView
             android:id="@+id/DMDURL"
@@ -94,12 +98,14 @@
             android:padding="10dp"
             android:text="URL du serveur :"
             android:textColor="#FFFFFF"
-            android:layout_below="@+id/MDPoublié"/>
+            android:layout_below="@+id/MDPoublié"
+            android:layout_marginStart="10dp"/>
 
         <EditText
             android:id="@+id/URLServeur"
-            android:layout_width="230dp"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:layout_marginStart="10dp"
             android:background="@color/white"
             android:hint="http:"
