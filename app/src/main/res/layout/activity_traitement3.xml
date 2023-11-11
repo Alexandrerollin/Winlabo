@@ -50,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:padding="10dp"
             android:text="Destinataire :"
             android:textColor="@color/black"
@@ -61,8 +61,7 @@
             android:layout_width="137dp"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"
+            android:layout_marginVertical="15dp"
             android:backgroundTint="@color/vert"
             android:text="Transférer à"
             android:textColor="@color/white"
@@ -75,7 +74,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:paddingBottom="20dp"
         android:background="@drawable/borderleftrightbeige"
         android:layout_below="@+id/DeclarationSite"
         android:layout_marginHorizontal="40dp">
@@ -105,12 +103,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_centerVertical="true"
             android:padding="10dp"
             android:text="Historique traitements :"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="18dp"
             android:textStyle="bold" />
 
         <ImageView
@@ -139,7 +137,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:paddingBottom="20dp"
+        android:paddingBottom="30dp"
         android:background="@drawable/borderleftbottomrightgrey"
         android:layout_below="@+id/Historiquetraitement1"
         android:layout_marginHorizontal="40dp">
@@ -159,8 +157,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
+        android:paddingVertical="10dp"
         android:layout_below="@+id/Historiquetraitement2"
         android:layout_marginHorizontal="40dp">
 
@@ -169,8 +166,7 @@
             android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginVertical="10dp"
             android:layout_centerVertical="true"
             android:backgroundTint="@color/bleu4"
             android:text="Précédent"

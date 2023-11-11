@@ -54,7 +54,7 @@
             android:layout_centerVertical="true"
             android:layout_marginStart="30dp"
             android:padding="10dp"
-            android:text="Site :"
+            android:text="Sélectionner site :"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -93,7 +93,6 @@
             android:layout_height="wrap_content"
             android:background="@drawable/borderlefttoprightbottomwhite"
             android:paddingVertical="20dp"
-            android:layout_alignParentTop="true"
             android:layout_marginHorizontal="40dp"/>
 
     </RelativeLayout>
@@ -103,8 +102,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
+        android:paddingVertical="10dp"
         android:layout_below="@+id/lesite"
         android:layout_marginHorizontal="40dp">
 

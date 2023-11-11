@@ -15,7 +15,6 @@
         android:max="100"
         android:progress="100"
         android:layout_marginTop="80dp"
-        android:layout_gravity="center_horizontal"
         android:progressDrawable="@drawable/progress_barre_color"/>
 
     <RelativeLayout
@@ -56,7 +55,7 @@
             android:padding="10dp"
             android:text="Documents joints :"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="16dp"
             android:textStyle="bold" />
 
         <ImageView
@@ -65,7 +64,7 @@
             android:src="@drawable/icons_plus"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="50dp"
+            android:layout_marginEnd="60dp"
             android:layout_marginVertical="10dp"/>
 
 <!--        <Button-->
@@ -123,11 +122,11 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="40dp"
             android:padding="10dp"
             android:text="Historique dérogations :"
             android:textColor="@color/black"
-            android:textSize="16sp"
+            android:textSize="16dp"
             android:textStyle="bold" />
 
         <ImageView
@@ -136,7 +135,7 @@
             android:src="@drawable/icons_below"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="50dp"
+            android:layout_marginEnd="30dp"
             android:layout_marginBottom="20dp"/>
 
 <!--        <com.google.android.material.floatingactionbutton.FloatingActionButton-->
@@ -159,14 +158,13 @@
         android:layout_below="@+id/derogation3"
         android:layout_marginHorizontal="40dp"
         android:background="@drawable/borderleftbottomrightgrey"
-        android:orientation="horizontal"
         android:paddingBottom="20dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="10dp"
+            android:layout_marginBottom="20dp"
             android:background="@drawable/borderlefttoprightbottomwhite"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
@@ -181,8 +179,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
+        android:paddingVertical="10dp"
         android:layout_below="@+id/derogation4"
         android:layout_marginHorizontal="40dp">
 
@@ -191,8 +188,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginVertical="10dp"
             android:backgroundTint="@color/bleu4"
             android:text="Précédent"
             android:textColor="@color/white"
@@ -205,8 +201,7 @@
             android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginVertical="10dp"
             android:backgroundTint="@color/bleu4"
             android:text="Suivant"
             android:textColor="@color/white"

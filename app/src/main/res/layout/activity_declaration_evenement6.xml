@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
-            android:layout_marginStart="30dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="4dp"
             android:padding="10dp"
             android:text="Documents joints :"
@@ -65,7 +65,7 @@
             android:src="@drawable/icons_plus"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="40dp"
+            android:layout_marginEnd="50dp"
             android:layout_marginVertical="10dp"/>
 
 <!--        <Button-->
@@ -135,8 +135,7 @@
         android:layout_below="@+id/dateauteur"
         android:layout_centerHorizontal="true"
         android:layout_marginHorizontal="40dp"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp">
+        android:paddingVertical="10dp">
 
         <Button
             android:id="@+id/Precedent6"
@@ -144,8 +143,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginVertical="10dp"
             android:backgroundTint="@color/bleu4"
             android:text="Précédent"
             android:textColor="@color/white"

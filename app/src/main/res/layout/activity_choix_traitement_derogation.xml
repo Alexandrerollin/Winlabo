@@ -77,7 +77,8 @@
             android:text="Un traitement"
             android:textStyle="bold"
             android:layout_marginRight="5dp"
-            android:layoutDirection="rtl"/>
+            android:layoutDirection="rtl"
+            android:textColor="@color/black"/>
 
         <RadioButton
             android:id="@+id/radioDerogation"
@@ -85,7 +86,8 @@
             android:layout_height="wrap_content"
             android:text="Une dérogation"
             android:textStyle="bold"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"/>
     </RadioGroup>
 
 <!--    <RelativeLayout-->
@@ -116,8 +118,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
+        android:paddingVertical="10dp"
         android:layout_below="@+id/lesite"
         android:layout_marginHorizontal="40dp">
 
@@ -126,13 +127,14 @@
             android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginVertical="10dp"
             android:backgroundTint="@color/bleu4"
             android:text="Précédent"
             android:textColor="@color/white"
             android:textSize="12dp"
-            android:textStyle="bold"
-            android:layout_marginTop="10dp"/>
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/Suivant7"

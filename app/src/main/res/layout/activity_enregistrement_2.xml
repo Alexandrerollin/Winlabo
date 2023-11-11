@@ -54,8 +54,7 @@
             android:layout_centerHorizontal="true"
             android:background="@drawable/borderlefttoprightbottomwhite"
             android:paddingBottom="60dp"
-            android:textColor="@color/black"
-            android:textSize="18dp" />
+            android:textColor="@color/black" />
     </RelativeLayout>
 
 
@@ -63,8 +62,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:paddingTop="10dp"
-        android:paddingBottom="10dp"
+        android:paddingVertical="10dp"
         android:layout_below="@+id/DeclarationSite"
         android:layout_marginHorizontal="40dp">
 
